@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/eight.png</file>
+        <file>images/eightc.png</file>
+        <file>images/eightrest.png</file>
+        <file>images/half.png</file>
+        <file>images/halfc.png</file>
+        <file>images/notblad.png</file>
+        <file>images/quater.png</file>
+        <file>images/quaterc.png</file>
+        <file>images/quaterrest.png</file>
+    </qresource>
+</RCC>
