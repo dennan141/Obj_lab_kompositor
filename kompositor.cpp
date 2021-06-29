@@ -28,11 +28,13 @@ int Kompositor::pixelToHeight(int ypixel)
     return height;
 }
 
-
+// VVV Used to test that the ui works as intented below VVV
 
 void Kompositor::on_play_button_clicked()
 {
     ui->Stupid_test_for_self->setText("Du har klickat på spela");
+    qDebug() << "play knappen klickad";
+
 }
 
 void Kompositor::on_half_Button_toggled(bool checked)

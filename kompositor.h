@@ -2,6 +2,7 @@
 #define KOMPOSITOR_H
 
 #include <QMainWindow>
+#include <QDebug>
 
 namespace Ui {
 class Kompositor;
@@ -32,6 +33,8 @@ private slots:
 
 private:
     Ui::Kompositor *ui;
+    //Kanske ska vara av typ Not istället för int?
+    int nottypval;
 };
 
 #endif // KOMPOSITOR_H

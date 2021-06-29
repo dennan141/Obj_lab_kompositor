@@ -26,10 +26,16 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        kompositor.cpp
+        kompositor.cpp \
+        not.cpp \
+        notblad.cpp \
+        synthesizer.cpp
 
 HEADERS += \
-        kompositor.h
+        kompositor.h \
+        not.h \
+        notblad.h \
+        synthesizer.h
 
 FORMS += \
         kompositor.ui
